@@ -15,6 +15,9 @@ body{
     height: 100vh;
     font-family: "Roboto", sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+    color: #484848;
+}
 a{
     text-decoration: none !important;
 }
@@ -40,6 +43,8 @@ a{
     height: 100px;
     width: 100px;
 }
+
+/*custom css for page2*/
 .p-icon{
     height: 70px;
     width: 70px;
@@ -62,6 +67,20 @@ a{
         width: 100%;
     }
 }
+/*end custom css pf page2*/
+
+/*custom page for page3*/
+.custom-img{
+    height: 209px !important;
+    width: 401px !important;
+}
+@media only screen and (min-width: 601px) {
+    .row  .custom-card {
+        width: 42% !important;
+    }
+}
+
+/*end custom page3*/
 
 
 
