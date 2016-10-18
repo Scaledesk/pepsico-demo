@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Pepsico Web</title>
+    <title> PS GGN Help Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
@@ -10,7 +10,7 @@
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/owl.carousel.css">
 
     <!-- Default Theme -->
@@ -23,7 +23,7 @@
 
 
 <!-- Overlay for fixed sidebar -->
-<div class="sidebar-overlay"></div>
+<div class="sidebar-overlay navbar-fixed"></div>
 
 <!--custom new sidenav-->
 
@@ -31,50 +31,95 @@
     <li><div class="userView">
         <img class="background" src="img/office.jpg">
         <a href="#"><img class="circle" src="img/user.svg"></a>
-        <a href="#"><span class="white-text name">Priya Singh</span></a>
-        <a href="#"><span class="white-text email">user123@gmail.com</span></a>
+        <a href="#"><span class="white-text name">User</span></a>
+        <a href="#"><span class="white-text email">example@pepsico.com</span></a>
     </div></li>
-    <li><a href="#"><i class="material-icons">cloud</i>Pepsico</a></li>
+    <li><a href="#"><i class="material-icons">cloud</i>PS GGN Help app</a></li>
     <li><div class="divider"></div></li>
-    <li><a class="waves-effect" href="#">Home</a></li>
-    <li><a class="waves-effect" href="#">Floors</a></li>
-    <li><a class="waves-effect" href="#">Amenities</a></li>
-    <li><a class="waves-effect" href="#">Type of Room</a></li>
-    <li><a class="waves-effect" href="#">About Us</a></li>
+    <li><a class="waves-effect" href="www.pepsicodemo.scaledesk.com">Home</a></li>
+   
+    <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class=" waves-effect collapsible-header">Floors</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#!">Third Floor</a></li>
+                <li><a href="#!">Fourth Floor</a></li>
+                <li><a href="#!">Fifth Floor</a></li>
+                <li><a href="#!">Sixth Floor</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+    
+    <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+            <a class=" waves-effect collapsible-header">Type of Room</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="#!">Meeting Rooms with Visual Plus</a></li>
+                <li><a href="#!">Meeting Rooms without VP</a></li>
+                <li><a href="#!">Excom Room</a></li>
+                <li><a href="#!">VC / TP Room</a></li>
+                <li><a href="#!">Pepsi Room</a></li>
+                <li><a href="#!">Training Room</a></li>
+                <li><a href="#!">Board Room</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </li>
+    
+    <li><a class="waves-effect" href="#">About</a></li>
     <li><a class="waves-effect" href="#">Help</a></li>
 </ul>
 <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 
 
-<div class="wrapper">
+<div class="wrapper" style="overflow:hidden">
     <!-- Sidebar Constructor -->
     <div class="container" style="margin-left: 340px">
-        <div class="row">
+        <div class="row m-b-40">
             <div class="col-md-7">
-                <h2 class="p-title">Pespico Demo Website</h2>
-                <p class="p-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolorem dolorum ex iste maxime neque odio placeat rerum? Asperiores consectetur distinctio eligendi fuga in iste, nisi qui repellat suscipit vel.</p>
+                <h2 class="p-title w-100">PS Buidling - Gurugram Help Website</h2>
+                <p class="p-text">Welcome to the PS GGN Help App. Here you can browse information about Rooms - Floor wise and by Type of Room. </p>
             </div>
             <div class="col-md-5">
                 <div class="img-bg"></div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-4 ">
-                <div class="icon-bg">
-                    <img src="img/icon-1.svg">
+        
+        <div class="row border-top border-bottom">
+           <a href="page2.html"> <div class="col-md-4 hoverable cursor-p p-t-10 p-b-10">
+                <div class="icon-bg m-0-a">
+                    <img src="img/icon-1.svg">  
+                    
                 </div>
+                <figcaption class="text-center m-t-10 f-16">Type of Room</figcaption>
+                
             </div>
-            <div class="col-md-4">
-                <div class="icon-bg">
+               </a>
+           <a href="page2.html"> <div class="col-md-4 hoverable cursor-p p-t-10 p-b-10">
+                <div class="icon-bg m-0-a">
                     <img src="img/icon-2.svg">
+                    
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="icon-bg">
+                <figcaption class="text-center m-t-10 f-16">Browse Floors </figcaption>
+               </div> </a>
+            
+           <a href="page2.html"> <div class="col-md-4 hoverable cursor-p p-t-10 p-b-10">
+                <div class="icon-bg m-0-a">
                     <img src="img/icon-3.svg">
+                    
                 </div>
+                <figcaption class="text-center m-t-10 f-16">Help</figcaption>
             </div>
+            </a>
         </div>
+        
         <div class="row">
             <div class="col-md-12">
                 <div id="owl-demo">

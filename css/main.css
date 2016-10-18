@@ -37,7 +37,7 @@ a{
 .img-bg{
     background: url("../img/building.jpg");
     height: 180px;
-    width: 430px;
+/*    width: 430px;*/
 }
 .icon-bg{
     height: 100px;
@@ -171,6 +171,10 @@ a{
     margin: 30px!important;
 }
 
+.m-0-a{
+    margin: 0 auto !important;
+}
+
 /*////Ends here///*/
 
 
@@ -202,6 +206,14 @@ a{
 
 .p-t-40{
     padding-top: 40px!important;
+}
+
+.p-t-10{
+    padding-top: 10px !important;
+}
+
+.p-b-10{
+    padding-bottom: 10px !important;
 }
 
 .p-b-20{
@@ -313,4 +325,16 @@ a{
 .c-black{
     color: #000!important;
 }
+
+/* sanchit */
+.cursor-p{
+    cursor: pointer !important;
+}
+
+.navbar-fixed{
+    height: auto !important;
+}
+
+
+
 
