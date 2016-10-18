@@ -1,0 +1,275 @@
+/* owl carousel css */
+#owl-demo .item{
+    margin: 3px;
+    padding: 3px;
+}
+#owl-demo .item img{
+    display: block;
+    width: 200px;
+    height: 165px;
+}
+
+/* end owl carousel */
+
+body{
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+.p-title{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.6rem;
+    word-spacing: 1px;
+    color: #484848;
+}
+.p-text{
+    font-size: 18px;
+    line-height: 1.6rem;
+    word-spacing: 2px;
+    color: #484848;
+}
+.img-bg{
+    background: url("../img/building.jpg");
+    height: 180px;
+    width: 430px;
+}
+.icon-bg{
+    height: 100px;
+    width: 100px;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////
+
+   CSS Helper Classes
+
+/////////////////////////////////////////////////////////////////////////*/
+
+/*////Margins//////*/
+
+.m-0{
+    margin: 0!important;
+}
+
+.m-5{
+    margin: 5px!important;
+}
+
+.m-t-0{
+    margin-top: 0!important;
+}
+
+.m-b-0{
+    margin-bottom: 0!important;
+}
+
+.m-10{
+    margin: 10px!important;
+}
+
+.m-t-5{
+    margin-top: 5px!important;
+}
+
+.m-t-10{
+    margin-top: 10px!important;
+}
+
+.m-t-15{
+    margin-top: 15px!important;
+}
+
+.m-t-20{
+    margin-top: 20px!important;
+}
+
+
+.m-b-5{
+    margin-bottom: 5px!important;
+}
+
+.m-b-10{
+    margin-bottom: 10px!important;
+}
+
+.m-b-20{
+    margin-bottom: 20px!important;
+}
+
+
+.m-b-40{
+    margin-bottom: 40px!important;
+}
+
+.m-b-60{
+    margin-bottom: 60px!important;
+}
+
+.m-t-40{
+    margin-top: 40px!important;
+}
+
+.m-t-60{
+    margin-top: 60px!important;
+}
+
+.m-r-20{
+    margin-right: 20px!important;
+}
+
+
+.m-r-40{
+    margin-right: 40px!important;
+}
+
+.m-30{
+    margin: 30px!important;
+}
+
+/*////Ends here///*/
+
+
+
+
+
+/*///Padding//*/
+
+.p-0{
+    padding: 0!important;
+}
+
+.p-5{
+    padding: 5px!important;
+}
+
+
+.p-10{
+    padding: 10px!important;
+}
+
+.p-15{
+    padding: 15px!important;
+}
+
+.p-20{
+    padding: 20px!important;
+}
+
+.p-t-40{
+    padding-top: 40px!important;
+}
+
+.p-b-20{
+    padding-bottom: 20px!important;
+}
+
+.p-b-40{
+    padding-bottom: 40px!important;
+}
+
+.p-b-60{
+    padding-bottom: 60px!important;
+}
+
+
+/*///ends here////*/
+
+
+
+
+/*////Fonts////*/
+
+
+.f-12{
+    font-size: 12px!important;
+}
+
+
+.f-16{
+    font-size: 16px!important;
+}
+
+.f-17{
+    font-size: 17px!important;
+}
+
+.f-18{
+    font-size: 18px!important;
+}
+
+.f-20{
+    font-size: 20px!important;
+}
+
+.f-22{
+    font-size: 22px!important;
+}
+
+
+.f-24{
+    font-size: 24px!important;
+}
+
+.f-29{
+    font-size: 29px!important;
+}
+
+
+.w-100{
+    font-weight: 100!important;
+}
+
+
+.w-500{
+    font-weight: 500!important;
+}
+
+.w-800{
+    font-weight: 800!important;
+}
+
+
+.f-8{
+    font-size: 5em!important;
+}
+
+
+
+/*///Borders////*/
+
+.border{
+    border: 1px solid #eee;
+}
+
+
+.border-top{
+    border-top: 1px solid #eee;
+}
+
+
+.border-right{
+    border-right: 1px solid #eee;
+}
+
+
+.border-bottom{
+    border-bottom: 1px solid #eee;
+}
+
+.border-left{
+    border-left: 1px solid #eee;
+}
+
+
+.c-white{
+    color: #fff!important;
+}
+
+.c-black{
+    color: #000!important;
+}
+
