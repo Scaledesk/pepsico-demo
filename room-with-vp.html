@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Pepsico Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<!--side nav-->
+<ul id="slide-out" class="side-nav fixed">
+    <li><div class="userView">
+        <img class="background" src="img/office.jpg">
+        <a href="#"><img class="circle" src="img/user.svg"></a>
+        <a href="#"><span class="white-text name">User</span></a>
+        <a href="#"><span class="white-text email">example@pepsico.com</span></a>
+    </div></li>
+    <li><a href="#"><i class="material-icons">cloud</i>PS GGN Help app</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="index.html">Home</a></li>
+
+    <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <a class=" waves-effect collapsible-header">Floors</a>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="floor3.html">Third Floor</a></li>
+                        <li><a href="floor4.html">Fourth Floor</a></li>
+                        <li><a href="floor5.html">Fifth Floor</a></li>
+                        <li><a href="floor6.html">Sixth Floor</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
+
+    <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+                <a class=" waves-effect collapsible-header">Type of Room</a>
+                <div class="collapsible-body">
+                    <ul>
+                        <li><a href="room-meeting.html">Meeting Rooms with Visual Plus</a></li>
+                        <li><a href="room-meeting.html">Meeting Rooms without VP</a></li>
+                        <li><a href="room-excom.html">Excom Room</a></li>
+                        <li><a href="room-vc.html">VC / TP Room</a></li>
+                        <li><a href="room-pepsi.html">Pepsi Room</a></li>
+                        <li><a href="room-training.html">Training Room</a></li>
+                        <li><a href="room-board.html">Board Room</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </li>
+
+    <li><a class="waves-effect" href="#">About</a></li>
+    <li><a class="waves-effect" href="#">Help</a></li>
+</ul>
+<!--end side nav-->
+
+
+<div class="wrapper">
+    <!-- Sidebar Constructor -->
+    <div class="container" style="margin-left: 340px">
+        <h3 class="f-24 w-100 text-center border-bottom p-b-10"> Meeting Room</h3>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-1">
+                <video class="border" width="auto" height="400px" poster="img/video-preview.png" controls>
+                    <source src="http://pepsico.scaledesk.com/gitvid/Meeting%20Room.mp4" type="video/mp4"></video>
+            </div>
+
+        </div>
+
+        <div class="row card p-10 p-l-20">
+            <p> <span class="f-16 w-500">How to make a video call in 4 Pax Meeting room using Visual Plus? </span><br>
+Step 1. Sign in into the Trio device using your email address.<br>
+Step 2. Select place a call option and dial the number using keypad or select person from contacts and place a call.<br>
+Your video call will start now. You can see the far end’s view on the TV screen.
+            </p>
+        </div>
+
+        <div class="row card p-10 p-l-20">
+            <p> <span class="f-16 w-500">How to share your content in the meeting room?</span><br>
+Step 1. Find the appropriate connecting cable (HDMI, Mini HDMI or VGA Cable) and connect it with your laptop.<br>
+Step 2. Change the source mode of the TV to HDMI or other suitable mode using its remote to share the content.
+
+</p>
+
+        </div>
+        <div class="row card p-10 p-l-20">
+            <p>To connect the Trio device with your phone, follow the steps -<br>
+                Step 1. Enable the bluetooth of Trio device.<br>
+                Step 2 – Make a call through your phone and use Trio as the bluetooth speaker & mic.</p>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(".button-collapse").sideNav();
+</script>
+</body>
+</html>

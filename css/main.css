@@ -7,6 +7,7 @@
     display: block;
     width: 200px;
     height: 165px;
+
 }
 
 .owl-heading {
@@ -16,13 +17,24 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
-    background: rgba(0, 0, 0, 0.41);
+    background: rgba(0, 0, 0, 0.54);
     padding: 40px 40px;
 }
+
+/*img .owl-heading:before{*/
+    /*background: rgba(0, 0, 0, 0.54);*/
+/*}*/
+
+/*#owl-demo .item img::before{*/
+
+    /*background: rgba(0, 0, 0, 0.54);*/
+
+/*}*/
 
 /* end owl carousel */
 
 body{
+    background: #fafafa;
     height: 100vh;
     font-family: "Roboto", sans-serif;
 }
@@ -88,6 +100,9 @@ a{
 @media only screen and (min-width: 601px) {
     .row  .custom-card {
         width: 42% !important;
+    }
+    .custom-wrapper{
+        margin-left: 0;
     }
 }
 
