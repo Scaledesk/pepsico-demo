@@ -372,3 +372,11 @@ a{
 
 
 
+.container{
+    background: url('../img/123.png') center no-repeat;
+    height: 100%;
+    /*width: 100%;*/
+    background-size: cover;
+}
+
+
