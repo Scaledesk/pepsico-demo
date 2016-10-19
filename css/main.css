@@ -9,6 +9,17 @@
     height: 165px;
 }
 
+.owl-heading {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.41);
+    padding: 40px 40px;
+}
+
 /* end owl carousel */
 
 body{
