@@ -18,7 +18,7 @@
     transform: translate(-50%, -50%);
     font-size: 20px;
     background: rgba(0, 0, 0, 0.54);
-    padding: 40px 40px;
+    padding: 37%;
 }
 
 /*img .owl-heading:before{*/
@@ -58,10 +58,14 @@ a{
     color: #484848;
 }
 .img-bg{
-    background: url("../img/building.jpg");
-    height: 180px;
+    background: url("../img/building.jpeg");
+    height: 250px;
 /*    width: 430px;*/
+    width: 100%;
+    background-size: cover;
+    background-position: 50%;
 }
+
 .icon-bg{
     height: 100px;
     width: 100px;
@@ -380,3 +384,7 @@ a{
 }
 
 
+
+.owl-item{
+    margin: 10px;
+}
