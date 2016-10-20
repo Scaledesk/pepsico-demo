@@ -52,11 +52,13 @@ a{
     color: #484848;
 }
 .p-text{
-    font-size: 18px;
-    line-height: 1.6rem;
-    word-spacing: 2px;
-    color: #484848;
+    font-size: 16px;
+    color: #6b6969;
+    word-spacing: 5px;
+    text-align: left;
+    line-height: 1.7em;
 }
+
 .img-bg{
     background: url("../img/building.jpeg");
     height: 250px;
