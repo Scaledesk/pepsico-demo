@@ -12,6 +12,7 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/animate.css">
 
     <link rel="stylesheet" href="css/main.css">
 
@@ -79,11 +80,11 @@
         <h3 class="f-24 w-100 text-center border-bottom p-b-10">Help / Emergency Information</h3>
         <h6 class="text-center f-18"> You can Contact the BIS HelpDesk Directly using the information below</h6>
         <div class="row p-tb-100">
-            
-           
+
+
     <div class="col-md-6 cursor-p">
                 <a href="mailto:bis."> <div class="col s12 m7">
-                    <div class="card horizontal p-l-10 m-0">
+                    <div class="card horizontal p-l-10 m-0 wow fadeInDown">
                         <div class="valign-wrapper">
                             <img  class="p-icon valgin" src="img/email.png" width="100px">
                         </div>
@@ -101,10 +102,10 @@
                 </div>
                     </a>
             </div>
-            
+
     <div class="col-md-6 cursor-p">
                 <a href=""> <div class="col s12 m7">
-                    <div class="card horizontal p-l-10 m-0">
+                    <div class="card horizontal p-l-10 m-0 wow fadeInDown">
                         <div class="valign-wrapper">
                             <img  class="p-icon valgin" src="img/phone.png" width="100px">
                         </div>
@@ -126,7 +127,7 @@
 
         </div>
 
-       
+
 
 
     </div>
@@ -139,6 +140,8 @@
     </div>
 
 
+<script src="js/wow.min.js"></script>
+
 <script src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -146,5 +149,11 @@
 <script>
     $(".button-collapse").sideNav();
 </script>
+
+<script>
+    new WOW().init();
+
+</script>
+
 </body>
 </html>
