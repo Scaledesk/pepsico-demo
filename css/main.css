@@ -18,7 +18,7 @@
     transform: translate(-50%, -50%);
     font-size: 20px;
     background: rgba(0, 0, 0, 0.54);
-    padding: 37%;
+    padding: 25% 33%;
 }
 
 /*img .owl-heading:before{*/
@@ -37,7 +37,10 @@ body{
     background:#fafafa;
     height: 100vh;
     font-family: "Roboto", sans-serif;
+    color: #545252;
+    line-height: 2em;
 }
+
 h1,h2,h3,h4,h5,h6{
     color: #484848;
 }
@@ -392,6 +395,8 @@ a{
 
 
 
-.owl-item{
-    margin: 10px;
-}
+/*.owl-item{*/
+    /*margin: 10px;*/
+/*}*/
+
+
